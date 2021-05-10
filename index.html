@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="app.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+	<title>Conversor de Código Morse</title>
+</head>
+<body>
+	<center>
+   		<h1>Conversor de Código Morse</h1>
+
+	<!-- formulario que recibe el texto o codigo morse digitado por el usuario -->
+
+	<div id="formulario">
+		<form action="#" method="post" name="morse">
+				<h2>Escribe un mensaje en código Morse</h2>
+				<input type="text" id="morse_texto" name="morse_texto" placeholder="Escribe aquí"> 
+				<button type="button" class="btn btn-outline-success" onclick="obtenerDatosMorse()">Convertir</button> 
+		</form>
+		</div>
+	
+	<div id="formulario2">
+		<form action="#" method="post" name="texto">
+				<h2>Escribe un mensaje de texto</h2>
+				<input type="text" id="texto_morse" name="texto_morse" placeholder="Escribe aquí">
+				<button type="button" class="btn btn-outline-success" onclick="obtenerDatosTexto()">Convertir</button> 
+		</form>
+		</div>
+	</center>
+
+<!-- tabla de numeros morse -->
+	<div id="tabla">
+		<p>Numeros</p>
+	<table summary="">
+		<tbody>
+			
+		  <tr>
+			<td>0</td><td>-----</td>
+			<td>1</td><td>.----</td>
+			<td>2</td><td>..---</td>
+			<td>3</td><td>...--</td>
+			<td>4</td><td>....-</td>
+		  </tr>
+		  <tr>
+			<td>5</td><td>.....</td>
+			<td>6</td><td>-....</td>
+			<td>7</td><td>--...</td>
+			<td>8</td><td>---..</td>
+			<td>9</td><td>----.</td>
+		  </tr>
+
+		</tbody>
+	  </table>
+	</div>
+
+
+	<!-- tabla de alfabeto morse -->
+	<div id="tabla1">
+		<p>Alfabeto</p>
+		<table summary="">
+		<tbody>
+			<tr>
+				<td>a</td><td>.-</td>
+				<td>b</td><td>-...</td>
+				<td>c</td><td>-.-.</td>
+				<td>d</td><td>-..</td>
+				<td>e</td><td>.</td>
+				<td>f</td><td>..-.</td>
+			</tr>
+			<tr>
+				<td>g</td><td>--.</td>
+				<td>h</td><td>....</td>
+				<td>i</td><td>..</td>
+				<td>j</td><td>.---</td>
+				<td>k</td><td>-.-</td>
+				<td>l</td><td>.-..</td>
+			</tr>
+			<tr>
+				<td>m</td><td>--</td>
+				<td>n</td><td>-.</td>
+				<td>o</td><td>---</td>
+				<td>p</td><td>.--.</td>
+				<td>q</td><td>--.-</td>
+				<td>r</td><td>.-.</td>
+			</tr>
+			<tr>
+				<td>s</td><td>...</td>
+				<td>t</td><td>-</td>
+				<td>u</td><td>..-</td>
+				<td>v</td><td>...-</td>
+				<td>w</td><td>.--</td>
+				<td>x</td><td>-..-</td>
+			</tr>
+			<tr>
+				<td>y</td><td>-.--</td>
+				<td>z</td><td>--..</td>
+				<td></td><td></td>
+				<td></td><td></td>
+				<td></td><td></td>
+				<td></td><td></td>
+
+			</tr>
+		</tbody>
+	</table>
+	</div>
+
+		<!-- tabla de simbolos morse -->
+
+	<div id="tabla2">
+		<p>Simbolos</p>
+		<table summary="">
+		<tbody>
+			<tr>
+				<td>.</td><td>.-.-.-</td>
+				<td>,</td><td>--..--</td>
+				<td>;</td><td>-.-.-.</td>
+				<td>:</td><td>---...</td>
+			</tr>
+			<tr>
+				<td>¡</td><td>--...-</td>
+				<td>!</td><td>-.-.--</td>					
+				<td>¿</td><td>..-.-</td>					
+				<td>?</td><td>..--..</td>
+			</tr>
+			<tr>
+				<td>+</td><td>.-.-.</td>
+				<td>-</td><td>-....-</td>
+				<td>/</td><td>-..-.</td>					
+				<td>=</td><td>-...-</td>
+			</tr>
+			<tr>
+				<td>_</td><td>..--.-</td>
+				<td>'</td><td>.----.</td>
+				<td>"</td><td>.-..-.</td>
+				<td>(</td><td>-.--.</td>
+			</tr>
+			<tr>						
+				<td>)</td><td>-.--.-</td>
+				<td>&</td><td>.-...</td>
+				<td>$</td><td>...-..-</td>
+				<td>@</td><td>.--.-.</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+	</form>	
+	
+
+</body>
+</html>

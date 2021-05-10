@@ -1,0 +1,99 @@
+/* fondo pantalla */
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-size: 2.6rem;
+  text-transform: initial;
+  color: rgb(26, 70, 49);
+}
+
+#formulario form {
+  font-weight: lighter;
+  color: rgb(38, 97, 68);
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+#formulario input {
+  margin-left: -105px;
+  width: 320px;
+}
+
+button {
+  background-color: rgb(0, 255, 0);
+}
+
+#formulario2 form {
+  font-weight: lighter;
+  color: rgb(38, 97, 68);
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 80px;
+}
+
+#formulario2 input {
+  margin-left: auto;
+  width: 300px;
+}
+
+#tabla table {
+  table-layout: fixed;
+  width: 32%;
+  margin-left: 800px;
+  margin-top: -10px;
+  background-color: rgba(96, 209, 96, 0.438);
+}
+
+#tabla p{
+  margin-top: 30px;
+  margin-left: 800px;
+  padding: 0.3em;
+  color: rgb(26, 70, 49);
+  font-weight: bold;
+}
+
+#tabla1 table {
+  table-layout: fixed;
+  width: 32%;
+  margin-left: 800px;
+  margin-top: -15px;
+  background-color: rgba(96, 209, 96, 0.438);
+}
+
+#tabla1 p{
+  margin-top: 5px;
+  margin-left: 800px;
+  padding: 0.3em;
+  color: rgb(26, 70, 49);
+  font-weight: bold;
+}
+
+td {
+  padding: 5px;
+  text-align:center;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+#tabla2 table {
+  table-layout: fixed;
+  width: 32%;
+  margin-top: -10px;
+  margin-left: 800px;
+  background-color: rgba(96, 209, 96, 0.438);
+}
+
+#tabla2 p{
+  margin-top: 5px;
+  margin-left: 800px;
+  padding: 0.3em;
+  color: rgb(26, 70, 49);
+  font-weight: bold;
+}
+
+
+
