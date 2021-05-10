@@ -1,3 +1,3 @@
 # codigo_morse-master
 
-Ejercicio de Matriz realizado con canvas de JavaScript, donde se tiene el dibujo de una matriz de 10x5 y se seleccionan filas y columnas al dar click en alguna celda de la matriz.
+Ejercicio de código Morse en lenguaje JavaScript y Bootstrap, donde a través de una interfaz el usuario puede traducir un mensaje a código Morse y viceversa.
